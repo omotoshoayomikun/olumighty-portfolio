@@ -1,0 +1,56 @@
+.hero_section {
+  width: 100%;
+  height: calc(100vh - 90px);
+  background: url("../../../public/images/login-bg.jpg") center center no-repeat;
+}
+
+.hero_container {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero_header_container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.hero_header_container h1 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.hero_header_container h1:last-of-type {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.icon_item {
+  color: #000;
+  font-size: 70px;
+}
+
+@media screen and (max-width: 709px) {
+  .hero_container {
+    width: 100%;
+  }
+
+  .hero_header_container h1 {
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  .hero_header_container h1:last-of-type {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .icon_item {
+    color: #000;
+    font-size: 50px;
+  }
+}

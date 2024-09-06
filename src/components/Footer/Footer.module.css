@@ -1,0 +1,19 @@
+
+.hr_line {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.head_text {
+    font-size: 85px;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 820px) {
+   
+.head_text {
+    font-size: 50px;
+    margin-bottom: 20px;
+} 
+}

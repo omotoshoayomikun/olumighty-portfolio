@@ -1,0 +1,38 @@
+.about_container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about_text {
+  font-size: 33px;
+  margin-bottom: 40px;
+}
+
+.detail {
+    gap: 30px;
+    font-size: 33px;
+}
+
+.hr_line {
+  margin-top: 100px;
+  margin-bottom: 130px;
+}
+
+
+@media screen and (max-width: 709px) {
+  .hero_container {
+    width: 100%;
+  }
+
+  
+.about_text {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+  
+.detail {
+  gap: 10px;
+  font-size: 20px;
+}
+}

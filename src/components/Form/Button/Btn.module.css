@@ -1,0 +1,21 @@
+.btn {
+    width: max-content;
+    border: none;
+    background-color: var(--blue-color);
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 24px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    border-radius: 8px;
+}
+
+.outlinebtn {
+    width: max-content;
+    border: 2px solid var(--blue-color);
+    background-color: transparent;
+    padding: 18px 35px;
+    font-size: 32px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    border-radius: 50px;
+    color: #fff;
+}
