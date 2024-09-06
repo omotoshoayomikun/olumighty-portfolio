@@ -29,7 +29,7 @@
 }
 
 .icon_item {
-  color: #000;
+  color: #fff;
   font-size: 70px;
 }
 
@@ -50,7 +50,14 @@
   }
 
   .icon_item {
-    color: #000;
     font-size: 50px;
+  }
+}
+
+
+@media screen and (max-width: 709px) {
+  
+  .icon_item {
+    font-size: 40px;
   }
 }
