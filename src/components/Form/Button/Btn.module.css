@@ -19,7 +19,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   border-radius: 50px;
   color: #fff;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 @media screen and (max-width: 500px) {
